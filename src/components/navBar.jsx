@@ -10,7 +10,7 @@ export default function navBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [open, setOpen] = useState(false);
   return (
-    <nav className="sticky top-0 font-ale text-xs fixed inset-x-0 bg-white">
+    <nav className="sticky font-ale text-xs fixed inset-x-0 bg-white">
     <div className="p-2 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:p-4">
       <div className="relative flex items-center justify-between">
         <img className="object-cover h-16 w-40" src={logo} alt="logo" />

@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import Navbar from "../components/navBar";
+import Content from "../components/content";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Intro from "../components/intro";
 export default function home() {
@@ -10,6 +11,8 @@ export default function home() {
           <Intro />
           <Navbar />
         </div>
+        <Content/>
+
       </BrowserRouter>
     </Fragment>
   );
