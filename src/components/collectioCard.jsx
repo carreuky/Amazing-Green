@@ -42,7 +42,7 @@ export default function collectioCard() {
               </div>
 
               <div class="w-full lg:w-1/5 mt-6 lg:mt-0 lg:px-4 text-center md:text-left">
-                <button class="bg-white hover:bg-grey-darker hover:text-white border border-solid border-grey w-1/3 lg:w-full py-2">
+                <button class="bg-white hover:bg-neutral-950 hover:text-white border border-solid border-grey w-1/3 lg:w-full py-2">
                   Visit now
                 </button>
               </div>
