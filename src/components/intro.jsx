@@ -9,7 +9,7 @@ import {
 export default function Intro() {
   let iconStyles = { fontSize: "1.1em" };
   return (
-      <div className="p-2 font-ale  text-sm">
+      <div className="intro p-2 font-ale  text-sm">
         <div className=" px-2 flex flex justify-end">
             <p className="px-4">Working Hours Monday - Saturday <b>08:00-17:00</b> </p>
             <a href="mailto:mainazac@gmail.com">mainazac@gmail.com</a>

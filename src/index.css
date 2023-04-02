@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media only screen and (max-width: 680px) {
+    .intro{
+        display: none;
+    }
+}
+.wrapper{
+    display:grid;
+    height:100vh;
+    place-items:center;
+    height: 120px;
+  }

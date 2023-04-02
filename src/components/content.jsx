@@ -4,7 +4,7 @@ import { MdOutlineArrowForwardIos } from "react-icons/md";
 export default function content() {
   return (
     <section
-      className="font-ale text-white bg-hero-pattern  lg:min-h-screen-75 p-20 bg-no-repeat bg-cover bg-center mx-auto"
+      className="font-ale text-white bg-hero-pattern lg:min-h-screen-75 min-h-screen-50  p-16 bg-no-repeat bg-cover bg-center mx-auto"
       style={{
         backgroundImage: `linear-gradient(to right bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),url(${energy})`,
       }}

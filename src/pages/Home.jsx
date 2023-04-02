@@ -1,17 +1,15 @@
 import { Fragment } from "react";
-import Navbar from "../components/navBar";
 import Content from "../components/content";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-import Intro from "../components/intro";
+import Collection from "../components/collection";
+import IntroNav from "../components/introNav";
 export default function home() {
   return (
     <Fragment>
       <BrowserRouter>
-        <div class="divide-y divide-[#5d8d61]">
-          <Intro />
-          <Navbar />
-        </div>
+        <IntroNav/>
         <Content/>
+        <Collection/>
 
       </BrowserRouter>
     </Fragment>

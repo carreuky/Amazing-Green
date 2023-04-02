@@ -60,7 +60,6 @@ export default function navBar() {
               <BsTelephoneFill />
 
               <span className="pl-1">
-                {" "}
                 <span>+254 723 231 641</span>
               </span>
             </a>
